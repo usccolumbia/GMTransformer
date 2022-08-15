@@ -37,7 +37,7 @@ We use the blank language model from [https://github.com/Varal7/blank_language_m
 ### How to train the model with GMTransformer dataset
 
 #### Download Data
-Download datasets from the above link, then unzip it under `GMTransformer_dataset` folder.
+Download datasets from the above link, then unzip it under `SMILES_data.zip` and `SELFIES_data.zip` folder.
 After the above, the directory should be:
 ```
 GMTransformer
