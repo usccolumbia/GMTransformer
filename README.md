@@ -21,21 +21,23 @@ SELFIES-atom training dataset (1,584,664 samples)
 
 SELFIES-atom validation dataset (176,075 samples)
 
-They can be downloaded here [SELFIES_data.zip](https://github.com/usccolumbia/GMTransformer/blob/main/SELFIES_data.zip)
+They can be downloaded here:
+
+[SELFIES_data.zip](https://github.com/usccolumbia/GMTransformer/blob/main/SELFIES_data.zip)
 
 [SMILES_data.zip](https://github.com/usccolumbia/GMTransformer/blob/main/SELFIES_data.zip)
 
 ### Running environment set up
 
-The BLM language model code we used is from [https://github.com/Varal7/blank_language_model/](here), which is based on the [PyTorch Lightning](https://github.com/PyTorchLightning/pytorch-lightning) framework. It has been tested in PyTorch 1.6.0, PyTorch Lightning 1.0.7
+The BLM language model code we used is from [here](https://github.com/Varal7/blank_language_model), which is based on the [PyTorch Lightning](https://github.com/PyTorchLightning/pytorch-lightning) framework. It has been tested in PyTorch 1.6.0, PyTorch Lightning 1.0.7
 
 Install `pytorch` from [pytorch web](https://pytorch.org/get-started/previous-versions/) based on your python & cuda version
-
+```
 conda create -n blm
 conda activate blm
 conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.2 -c pytorch
 conda install -c conda-forge pytorch-lightning=1.0.7
-
+```
 
 
 ### Codebase
