@@ -27,7 +27,7 @@ They can be downloaded here:
 
 [SELFIES_data.zip](https://github.com/usccolumbia/GMTransformer/blob/main/SELFIES_data.zip)
 
-[SMILES_data.zip](https://github.com/usccolumbia/GMTransformer/blob/main/SMILES_data.zip)
+[SMILES_data.zip](https://github.com/usccolumbia/GMTransformer/blob/main/SMILE_data.zip)
 
 ### Running environment set up
 
@@ -61,11 +61,11 @@ cd GMTransformer
 ### How to train the model with GMTransformer dataset
 
 #### Download Data
-Download datasets from the above links and put it into the GMTransformer folder, then unzip it under `SMILES_data.zip` and `SELFIES_data.zip` folder.
+Download datasets from the above links and put it into the GMTransformer folder, then unzip it under `SMILE_data.zip` and `SELFIES_data.zip` folder.
 
 ```
 wget https://github.com/usccolumbia/GMTransformer/blob/main/SELFIES_data.zip
-wget https://github.com/usccolumbia/GMTransformer/blob/main/SMILES_data.zip
+wget https://github.com/usccolumbia/GMTransformer/blob/main/SMILE_data.zip
 unzip SELFIES_data.zip
 unzip SMILES_data.zip
 ```
