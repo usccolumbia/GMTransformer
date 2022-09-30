@@ -50,11 +50,26 @@ Download the repository and unzip it. Install the necessary python libraries as 
 
 And then put a GMTransformer folder inside it.
 
+```
+git clone https://github.com/Varal7/blank_language_model.git
+cd blank_language_model
+mkdir GMTransformer
+cd GMTransformer
+
+```
+
 ### How to train the model with GMTransformer dataset
 
 #### Download Data
 Download datasets from the above links and put it into the GMTransformer folder, then unzip it under `SMILES_data.zip` and `SELFIES_data.zip` folder.
+
+```
+wget https://github.com/usccolumbia/GMTransformer/blob/main/SELFIES_data.zip
+wget https://github.com/usccolumbia/GMTransformer/blob/main/SELFIES_data.zip
+```
+
 After the above, the directory should be:
+
 ```
 blank_language_model
   |-GMTransformer
