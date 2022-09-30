@@ -1,7 +1,7 @@
 # GMTransformer for molecular design
 -a probablistic generative transformer neural network model for molecular design
 
-This repository contains the code for our paper:  
+This repository contains the datasets and link to the code for our paper:  
 [**GENERATIVE TRANSFORMER LANGUAGE MODELS FOR GENERATIVE AND TINKERING DESIGN OF MOLECULES**](https://arxiv.org/abs/2209.09406)  
 *Lai Wei, Nihang Fu, Yuqi Song, Qian Wang, and Jianjun Hu* https://arxiv.org/abs/2209.09406
 
