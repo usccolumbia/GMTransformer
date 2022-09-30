@@ -27,7 +27,7 @@ They can be downloaded here:
 
 [SELFIES_data.zip](https://github.com/usccolumbia/GMTransformer/blob/main/SELFIES_data.zip)
 
-[SMILES_data.zip](https://github.com/usccolumbia/GMTransformer/blob/main/SELFIES_data.zip)
+[SMILES_data.zip](https://github.com/usccolumbia/GMTransformer/blob/main/SMILES_data.zip)
 
 ### Running environment set up
 
@@ -65,7 +65,9 @@ Download datasets from the above links and put it into the GMTransformer folder,
 
 ```
 wget https://github.com/usccolumbia/GMTransformer/blob/main/SELFIES_data.zip
-wget https://github.com/usccolumbia/GMTransformer/blob/main/SELFIES_data.zip
+wget https://github.com/usccolumbia/GMTransformer/blob/main/SMILES_data.zip
+unzip SELFIES_data.zip
+unzip SMILES_data.zip
 ```
 
 After the above, the directory should be:
