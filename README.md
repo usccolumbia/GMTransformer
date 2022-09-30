@@ -40,15 +40,16 @@ Download the repository and unzip. And then put the GMTransformer folder inside 
 Download datasets from the above link, then unzip it under `SMILES_data.zip` and `SELFIES_data.zip` folder.
 After the above, the directory should be:
 ```
-GMTransformer
-   ├── GMTransformer_dataset
-       ├── SMILE_data
-           ├── SMILES_atom_train.txt
-           ├── SMILES_atom_valid.txt
-       ├── SELFIES_data
-           ├── SELFIES_atom_train.txt
-           ├── SELFIES_atom_valid.txt
-   └── README.md
+blank_language_model
+  |-GMTransformer
+      ├── GMTransformer_dataset
+          ├── SMILE_data
+              ├── SMILES_atom_train.txt
+              ├── SMILES_atom_valid.txt
+          ├── SELFIES_data
+              ├── SELFIES_atom_train.txt
+              ├── SELFIES_atom_valid.txt
+      └── README.md
 ```
 
 #### Training
