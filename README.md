@@ -32,12 +32,15 @@ Install `pytorch` from [pytorch web](https://pytorch.org/get-started/previous-ve
 ### Codebase
 
 Go to the blank language model (BLM) repository from [https://github.com/Varal7/blank_language_model/](https://github.com/Varal7/blank_language_model)
-Download the repository and unzip. And then put the GMTransformer folder inside it.
+
+Download the repository and unzip it. Install the necessary python libraries as instructed.
+
+And then put a GMTransformer folder inside it.
 
 ### How to train the model with GMTransformer dataset
 
 #### Download Data
-Download datasets from the above link, then unzip it under `SMILES_data.zip` and `SELFIES_data.zip` folder.
+Download datasets from the above links and put it into the GMTransformer folder, then unzip it under `SMILES_data.zip` and `SELFIES_data.zip` folder.
 After the above, the directory should be:
 ```
 blank_language_model
