@@ -1,4 +1,5 @@
-# GMT-molecular
+# GMTransformer-a probablistic generative transformer for molecular design
+
 This repository contains the code for our paper:  
 [**GENERATIVE TRANSFORMER LANGUAGE MODELS FOR GENERATIVE AND TINKERING DESIGN OF MOLECULES**](put-arxiv-link-here)  
 *Lai Wei, Nihang Fu, Yuqi Song, Qian Wang, and Jianjun Hu*
