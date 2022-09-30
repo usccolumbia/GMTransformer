@@ -5,7 +5,7 @@ import selfies as sf
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument('--input', default='sample.txt',
+parser.add_argument('--input', default='selfies_sample.txt',
 	                    help='path to selfie token file')											      
 parser.add_argument('--valid',
 	                    help='path to validation file')
