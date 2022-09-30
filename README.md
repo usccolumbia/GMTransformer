@@ -21,9 +21,9 @@ SELFIES-atom training dataset (1,584,664 samples)
 
 SELFIES-atom validation dataset (176,075 samples)
 
-They can be downloaded here [https://github.com/usccolumbia/GMTransformer/blob/main/SELFIES_data.zip](SELFIES_data.zip)
+They can be downloaded here [SELFIES_data.zip](https://github.com/usccolumbia/GMTransformer/blob/main/SELFIES_data.zip)
 
-[https://github.com/usccolumbia/GMTransformer/blob/main/SELFIES_data.zip](SMILES_data.zip)
+[SMILES_data.zip](https://github.com/usccolumbia/GMTransformer/blob/main/SELFIES_data.zip)
 
 ### Running environment set up
 
