@@ -73,6 +73,11 @@ python test.py --checkpoint checkpoints/SMILES/atom/lightning_logs/version_0/che
 If you use our work, please cite:
 
 ```bibtex
-bibtex-ciation here
+@article{wei2022probabilistic,
+  title={Probabilistic Generative Transformer Language models for Generative Design of Molecules},
+  author={Wei, Lai and Fu, Nihang and Song, Yuqi and Wang, Qian and Hu, Jianjun},
+  journal={arXiv preprint arXiv:2209.09406},
+  year={2022}
+}
 }
 ``
