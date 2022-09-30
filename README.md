@@ -55,7 +55,8 @@ git clone https://github.com/Varal7/blank_language_model.git
 cd blank_language_model
 mkdir GMTransformer
 cd GMTransformer
-
+mkdir GMTransformer_dataset
+cd GMTransformer_dataset
 ```
 
 ### How to train the model with GMTransformer dataset
