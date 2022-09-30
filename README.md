@@ -55,8 +55,7 @@ git clone https://github.com/Varal7/blank_language_model.git
 cd blank_language_model
 mkdir GMTransformer
 cd GMTransformer
-mkdir GMTransformer_dataset
-cd GMTransformer_dataset
+
 ```
 
 ### How to train the model with GMTransformer dataset
@@ -76,7 +75,6 @@ After the above, the directory should be:
 ```
 blank_language_model
   |-GMTransformer
-      ├── GMTransformer_dataset
           ├── SMILE_data
               ├── SMILES_atom_train.txt
               ├── SMILES_atom_valid.txt
@@ -90,7 +88,7 @@ blank_language_model
 An example is to train a GMTransformer model on the SMILES_atom dataset. 
 ```
 cd blank_language_model
-python train.py --train GMTransformer_dataset/SMILE_data/SMILES_atom_train.txt --valid GMTransformer_dataset/SMILE_data/SMILES_atom_valid.txt --root_dir checkpoints/SMILES/atom/ \
+python train.py --train GMTransformer/SMILE_data/SMILES_atom_train.txt --valid GMTransformer/SMILE_data/SMILES_atom_valid.txt --root_dir checkpoints/SMILES/atom/ \
 --vocab_size 100 --max_len 200 --model_type blm --share_emb_prj_weight
 ```
 The training for other models is similar to SMILES_atom dataset.
