@@ -64,8 +64,8 @@ cd GMTransformer
 Download datasets from the above links and put it into the GMTransformer folder, then unzip it under `SMILE_data.zip` and `SELFIES_data.zip` folder.
 
 ```
-wget https://github.com/usccolumbia/GMTransformer/blob/main/SELFIES_data.zip
-wget https://github.com/usccolumbia/GMTransformer/blob/main/SMILE_data.zip
+wget https://github.com/usccolumbia/GMTransformer/blob/main/SELFIES_data.zip?raw=true -O SELFIES_data.zip
+wget https://github.com/usccolumbia/GMTransformer/blob/main/SMILE_data.zip?raw=true -O SMILE_data.zip
 unzip SELFIES_data.zip
 unzip SMILES_data.zip
 ```
