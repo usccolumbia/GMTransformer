@@ -105,6 +105,15 @@ Generate molecules using the trained SMILES_atom model.
 python test.py --checkpoint checkpoints/SMILES/atom/lightning_logs/version_0/checkpoints/epoch\=???.ckpt \
 --sample 1000 --decode sample --output sample.txt
 ```
+The output file is located at
+
+checkpoints/SMILES/atom/lightning_logs/version_1/outputs/sample.txt
+
+You can then convert the generated token list into SMILES file:
+
+```
+python convert2smiles.py checkpoints/SMILES/atom/lightning_logs/version_1/outputs/sample.txt  sample_generated_smiles.txt
+```
 
 ### Citation
 
