@@ -39,6 +39,10 @@ conda create -n blm
 conda activate blm
 conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.2 -c pytorch
 conda install -c conda-forge pytorch-lightning=1.0.7
+
+or 
+pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
+pip install pytorch-lightning==1.0.7
 ```
 
 
