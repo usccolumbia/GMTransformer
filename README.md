@@ -118,11 +118,23 @@ python convert2smiles.py --input checkpoints/SMILES/atom/lightning_logs/version_
 for SELFIES-model, 
 
 ```
-python convert2selfies.py --input checkpoints/SELFIES/atom/lightning_logs/version_1/outputs/sample.txt  --output output_selfies.txt
+python selfiestoken2smiles.py --input checkpoints/SELFIES/atom/lightning_logs/version_1/outputs/sample.txt  --output output2_smiles.txt
 ```
 
 #### How to generate new molecules using our pretrained models
 
+Download the zipped model file from figshare [zipped model file](https://figshare.com/articles/software/GMTransformer/21256338)
+put it into the GMTransformer folder, and unzip it. 
+
+Then run the following to generate molecules using the GMTransformer-SMILES or GMTransformer-SELFIES model.
+```
+python test.py --checkpoint GMTransformer/models/SELFIES-model/checkpoint/blanklm-epoch=2835-val_loss=0.78.ckpt \
+--sample 1000 --decode sample --output sample.txt
+
+python test.py --checkpoint GMTransformer/models/SMILES-model/checkpoint/blanklm-epoch=2716-val_loss=0.71.ckpt \
+--sample 1000 --decode sample --output sample.txt
+```
+After the generation, you need to use the same conversion step as above to convert the sequences into SMILES format.
 
 
 
