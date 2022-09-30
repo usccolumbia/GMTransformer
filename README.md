@@ -1,5 +1,5 @@
-# GMTransformer 
--a probablistic generative transformer for molecular design
+# GMTransformer for molecular design
+-a probablistic generative transformer neural network model for molecular design
 
 This repository contains the code for our paper:  
 [**GENERATIVE TRANSFORMER LANGUAGE MODELS FOR GENERATIVE AND TINKERING DESIGN OF MOLECULES**](https://arxiv.org/abs/2209.09406)  
