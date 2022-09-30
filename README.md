@@ -2,7 +2,7 @@
 -a probablistic generative transformer for molecular design
 
 This repository contains the code for our paper:  
-[**GENERATIVE TRANSFORMER LANGUAGE MODELS FOR GENERATIVE AND TINKERING DESIGN OF MOLECULES**](put-arxiv-link-here)  
+[**GENERATIVE TRANSFORMER LANGUAGE MODELS FOR GENERATIVE AND TINKERING DESIGN OF MOLECULES**](https://arxiv.org/abs/2209.09406)  
 *Lai Wei, Nihang Fu, Yuqi Song, Qian Wang, and Jianjun Hu*
 
 by <a href="http://mleg.cse.sc.edu" target="_blank">Machine Learning and Evolution Laboratory</a>, University of South Carolina.
