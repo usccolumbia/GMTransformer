@@ -29,10 +29,10 @@ The code is based on the [PyTorch Lightning](https://github.com/PyTorchLightning
 Install `pytorch` from [pytorch web](https://pytorch.org/get-started/previous-versions/) given your python & cuda version
 
 
-### Acknowledgements
+### Codebase
 
-We use the blank language model from [https://github.com/Varal7/blank_language_model/edit/release/README.md](https://github.com/Varal7/blank_language_model)
-
+Go to the blank language model (BLM) repository from [https://github.com/Varal7/blank_language_model/](https://github.com/Varal7/blank_language_model)
+Download the repository and unzip. And then put the GMTransformer folder inside it.
 
 ### How to train the model with GMTransformer dataset
 
