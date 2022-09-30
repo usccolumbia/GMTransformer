@@ -112,8 +112,19 @@ checkpoints/SMILES/atom/lightning_logs/version_1/outputs/sample.txt
 You can then convert the generated token list into SMILES file:
 
 ```
-python convert2smiles.py checkpoints/SMILES/atom/lightning_logs/version_1/outputs/sample.txt  sample_generated_smiles.txt
+python convert2smiles.py --input checkpoints/SMILES/atom/lightning_logs/version_1/outputs/sample.txt  --output output_smiles.txt
 ```
+
+for SELFIES-model, 
+
+```
+python convert2selfies.py --input checkpoints/SELFIES/atom/lightning_logs/version_1/outputs/sample.txt  --output output_selfies.txt
+```
+
+#### How to generate new molecules using our pretrained models
+
+
+
 
 ### Citation
 
