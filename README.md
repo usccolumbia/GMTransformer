@@ -2,8 +2,8 @@
 -a probablistic generative transformer neural network model for molecular design
 
 This repository contains the datasets and link to the code for our paper:  
-[**GENERATIVE TRANSFORMER LANGUAGE MODELS FOR GENERATIVE AND TINKERING DESIGN OF MOLECULES**](https://arxiv.org/abs/2209.09406)  
-*Lai Wei, Nihang Fu, Yuqi Song, Qian Wang, and Jianjun Hu* https://arxiv.org/abs/2209.09406
+[**GENERATIVE TRANSFORMER LANGUAGE MODELS FOR GENERATIVE AND TINKERING DESIGN OF MOLECULES**](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-023-00759-z)  
+*Lai Wei, Nihang Fu, Yuqi Song, Qian Wang, and Jianjun Hu* 
 
 by <a href="http://mleg.cse.sc.edu" target="_blank">Machine Learning and Evolution Laboratory</a>, University of South Carolina.
 
@@ -143,11 +143,16 @@ After the generation, you need to use the same conversion step as above to conve
 If you use our work, please cite:
 
 ```bibtex
-@article{wei2022probabilistic,
-  title={Probabilistic Generative Transformer Language models for Generative Design of Molecules},
+@article{wei2023probabilistic,
+  title={Probabilistic generative transformer language models for generative design of molecules},
   author={Wei, Lai and Fu, Nihang and Song, Yuqi and Wang, Qian and Hu, Jianjun},
-  journal={arXiv preprint arXiv:2209.09406},
-  year={2022}
+  journal={Journal of Cheminformatics},
+  volume={15},
+  number={1},
+  pages={88},
+  year={2023},
+  publisher={Springer}
+}
 }
 
 ``
